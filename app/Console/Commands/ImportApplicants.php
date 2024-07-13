@@ -27,7 +27,7 @@ class ImportApplicants extends Command
                 'county' => $rowData['County'],
                 'country' => $rowData['Country'],
                 'post_code' => $rowData['Post Code'],
-                'require_dbs_check' => $rowData['Require DBS Check'] === 'true',
+                'require_dbs_check' => $rowData['Require DBS Check'] === '1',
                 'applied_for' => $rowData['Applied For'],
                 'cv' => $rowData['CV'],
             ]);
